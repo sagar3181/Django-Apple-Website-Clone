@@ -1,0 +1,47 @@
+from django.shortcuts import render
+from django.http import HttpResponse,JsonResponse
+# Create your views here.
+def home(request):
+    return render(request,"home.html")
+def iphone(request):
+    return render(request,"iphone.html")  
+def mac(request):
+     return render(request,"mac.html")    
+def ipad(request):
+    return render(request,"ipad.html")   
+def watch(request):
+    return render(request,"watch.html")  
+def tv(request):
+    return render(request,"tv.html")       
+def music(request):
+    return render(request,"music.html") 
+def accessories(request):
+    return render(request,"accessories.html") 
+def service(request):
+    return render(request,"service.html")       
+def error(request):
+    return render(request,"error.html")   
+def applestore(request):
+    return render(request,"applestore.html")   
+def appleeducation(request):
+    return render(request,"appleeducation.html")   
+def account(request):
+    return render(request,"account.html")   
+def accounterror(request):
+    return render(request,"accounterror.html")   
+def accessibility(request):
+    return render(request,"accessibility.html")   
+def environment(request):
+    return render(request,"environment.html") 
+def iphone12(request):
+    return render(request,"iphone12.html")  
+def iphone12pro(request):
+    return render(request,"iphone12pro.html")
+def ipadair(request):
+    return render(request,"ipadair.html")     
+def ipadpro(request):
+    return render(request,"ipadpro.html")  
+def macbookair(request):
+    return render(request,"macbookair.html")     
+def macbookpro(request):
+    return render(request,"macbookpro.html")     
